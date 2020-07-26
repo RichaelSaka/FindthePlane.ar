@@ -13,6 +13,8 @@
 		188E6AE524CD6DBC006A9049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188E6AE324CD6DBC006A9049 /* Main.storyboard */; };
 		188E6AE724CD6DBE006A9049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188E6AE624CD6DBE006A9049 /* Assets.xcassets */; };
 		188E6AEA24CD6DBE006A9049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188E6AE824CD6DBE006A9049 /* LaunchScreen.storyboard */; };
+		188E6AF224CD7080006A9049 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E6AF124CD7080006A9049 /* SpaceShip.swift */; };
+		188E6AF424CD708C006A9049 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 188E6AF324CD708C006A9049 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		188E6AE624CD6DBE006A9049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188E6AE924CD6DBE006A9049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188E6AEB24CD6DBE006A9049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188E6AF124CD7080006A9049 /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
+		188E6AF324CD708C006A9049 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 				188E6ADD24CD6DBC006A9049 /* AppDelegate.swift */,
 				188E6ADF24CD6DBC006A9049 /* SceneDelegate.swift */,
 				188E6AE124CD6DBC006A9049 /* ViewController.swift */,
+				188E6AF124CD7080006A9049 /* SpaceShip.swift */,
 				188E6AE324CD6DBC006A9049 /* Main.storyboard */,
 				188E6AE624CD6DBE006A9049 /* Assets.xcassets */,
+				188E6AF324CD708C006A9049 /* art.scnassets */,
 				188E6AE824CD6DBE006A9049 /* LaunchScreen.storyboard */,
 				188E6AEB24CD6DBE006A9049 /* Info.plist */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				188E6AEA24CD6DBE006A9049 /* LaunchScreen.storyboard in Resources */,
+				188E6AF424CD708C006A9049 /* art.scnassets in Resources */,
 				188E6AE724CD6DBE006A9049 /* Assets.xcassets in Resources */,
 				188E6AE524CD6DBC006A9049 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				188E6AE224CD6DBC006A9049 /* ViewController.swift in Sources */,
 				188E6ADE24CD6DBC006A9049 /* AppDelegate.swift in Sources */,
+				188E6AF224CD7080006A9049 /* SpaceShip.swift in Sources */,
 				188E6AE024CD6DBC006A9049 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
